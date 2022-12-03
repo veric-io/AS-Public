@@ -22,7 +22,7 @@ DAI: https://goerli.etherscan.io/address/0x581857409579161Dabd2C4994f78b2F1B3671
 ## ARSW Token:
 https://goerli.etherscan.io/address/0x84e4A9404974F503b39b746393954f6D46e922cf
 
-## ARSW Farm:
+## ARSW Farm Contract:
 https://goerli.etherscan.io/address/0x1D3cB38113ACDb215d97C8fa6534e7e36aA958e2
 ### API:
 ```solidity
