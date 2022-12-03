@@ -19,6 +19,23 @@ interface ILPManager {
 USDC: https://goerli.etherscan.io/address/0x4600029b3b2426d627dFde7d57AbCFdC96aEC147
 DAI: https://goerli.etherscan.io/address/0x581857409579161Dabd2C4994f78b2F1B3671bc2
 
+## ARSW Token:
+https://goerli.etherscan.io/address/0x84e4A9404974F503b39b746393954f6D46e922cf
+
+## ARSW Farm:
+https://goerli.etherscan.io/address/0x1D3cB38113ACDb215d97C8fa6534e7e36aA958e2
+### API:
+```solidity
+interface ITokenStake {
+    function addLPPool(IERC20 lpToken_, uint allocPoint_, uint lastRewardBlock_) external;
+    function depositLP(uint _pid, uint _amount) external;
+    function pendingLPReward(uint _pid, address _user) public view returns (uint[] memory pending);
+    function withdrawLP(uint _pid, uint _amount) external;
+    function setRewardPerBlock(uint _rewardPerBlock) external;
+    function setArswAddress(IERC20Upgradeable token_) external;
+}
+```
+
 ## DIDRegistry Contract:
 
 Contract address:
