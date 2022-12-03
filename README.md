@@ -23,7 +23,7 @@ DAI: https://goerli.etherscan.io/address/0x581857409579161Dabd2C4994f78b2F1B3671
 https://goerli.etherscan.io/address/0x84e4A9404974F503b39b746393954f6D46e922cf
 
 ## ARSW Farm Contract:
-https://goerli.etherscan.io/address/0x1D3cB38113ACDb215d97C8fa6534e7e36aA958e2
+https://goerli.etherscan.io/address/0xe48c7E55cd62585993a9048fd208290Bb1235F64
 ### API:
 ```solidity
 interface ITokenStake {
