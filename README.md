@@ -16,14 +16,14 @@ interface ILPManager {
 }
 ```
 ## Test Token:
-USDC: https://goerli.etherscan.io/address/0x4600029b3b2426d627dFde7d57AbCFdC96aEC147
-DAI: https://goerli.etherscan.io/address/0x581857409579161Dabd2C4994f78b2F1B3671bc2
+- USDC: https://goerli.etherscan.io/address/0x4600029b3b2426d627dFde7d57AbCFdC96aEC147
+- DAI: https://goerli.etherscan.io/address/0x581857409579161Dabd2C4994f78b2F1B3671bc2
 
 ## ARSW Token:
-https://goerli.etherscan.io/address/0xe48c7E55cd62585993a9048fd208290Bb1235F64
+https://goerli.etherscan.io/address/0x497aFFcB5581eAA5684104A9CB6C4C49FC621291
 
 ## ARSW Farm:
-https://goerli.etherscan.io/address/0x1D3cB38113ACDb215d97C8fa6534e7e36aA958e2
+https://goerli.etherscan.io/address/0xe48c7E55cd62585993a9048fd208290Bb1235F64
 ### API:
 ```solidity
 interface ITokenStake {
