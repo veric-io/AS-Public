@@ -13,6 +13,8 @@ interface ILPManager {
     function removeLiquidity(address token, uint liquidity, address to) external returns (uint amount);
     // Adding "amount" of "token" (e.g. USDC) and send liquidity(LP token) to "to" address
     function addLiquidity(address token, uint amount, address to) external returns (uint liquidity);
+    // get the balance of "token" in the pool
+    function getPoolBalanceViaToken(address token) external view returns(uint balance);
 }
 ```
 ## Test Token:
