@@ -16,6 +16,8 @@ interface ILPManager {
     // get the balance of "token" in the pool
     function getPoolBalanceViaToken(address token) external view returns(uint balance);
 
+    // Create LP Pool for ETH
+    function createEthPool() external returns (address pool);
     // get the balance of ETH in the pool
     function getEthPoolBalance() returns (uint balance);
     // Adding ETH to pool and send liquidity(LP token) to "to" address
