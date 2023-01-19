@@ -15,6 +15,18 @@ interface ILPManager {
     function addLiquidity(address token, uint amount, address to) external returns (uint liquidity);
     // get the balance of "token" in the pool
     function getPoolBalanceViaToken(address token) external view returns(uint balance);
+
+    // get the balance of ETH in the pool
+    function getEthPoolBalance() returns (uint balance);
+    // Adding ETH to pool and send liquidity(LP token) to "to" address
+    function addEthLiquidity(address to) payable external;
+    // Removing "Liquidity" (LP token) of ETH and send them back to "to" address  
+    function removeEthLiquidity(uint liquidity, address to); 
+    
+    // pause a Token LP Pool
+    function pauseToken(address token) external;
+    // unpause a Token LP Pool
+    function unpauseToken(address token) external;
 }
 ```
 ## Test Token:
@@ -37,6 +49,7 @@ interface ITokenStake {
     function pendingLPReward(uint _pid, address _user) public view returns (uint[] memory pending);
     // user withdraw LP from a pool 
     function withdrawLP(uint _pid, uint _amount) external;
+
 }
 ```
 
